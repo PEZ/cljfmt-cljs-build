@@ -1,0 +1,7 @@
+{:deps true
+ :builds {:script {:target :node-script
+                   :main repro.script/main
+                   :output-to "repro-script.js"}
+          :library {:target :node-library
+                    :output-to "repro-library.js"
+                    :exports {:main repro.script/main}}}}

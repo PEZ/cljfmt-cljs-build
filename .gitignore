@@ -1,0 +1,7 @@
+.lsp/.cache
+.clj-kondo/.cache
+.shadow-cljs
+.portal/vs-code.edn
+node_modules
+repro*.js
+.cpcache
